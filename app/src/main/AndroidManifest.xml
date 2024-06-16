@@ -13,6 +13,33 @@
         android:theme="@style/Theme.CapstoneProjectAskBook"
         tools:targetApi="31">
         <activity
+            android:name=".View.Version"
+            android:exported="false" />
+        <activity
+            android:name=".View.TentangPengembang"
+            android:exported="false" />
+        <activity
+            android:name=".View.TentangSaya"
+            android:exported="false" />
+        <activity
+            android:name=".View.Profil"
+            android:exported="false" />
+        <activity
+            android:name=".View.HalamanDetailKategoriBuku"
+            android:exported="false" />
+        <activity
+            android:name=".View.DetailKategoriBuku"
+            android:exported="false" />
+        <activity
+            android:name=".View.PilihKategoriBuku"
+            android:exported="false" />
+        <activity
+            android:name=".View.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".View.Splash"
+            android:exported="false" />
+        <activity
             android:name=".View.LupaPasswordCreate"
             android:exported="false" />
         <activity
