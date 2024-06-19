@@ -46,13 +46,13 @@
             android:name=".View.LupaPassword"
             android:exported="false" />
         <activity
-            android:name=".View.Login"
+            android:name=".View.MainActivity"
             android:exported="false" />
         <activity
             android:name=".View.Register"
             android:exported="false" />
         <activity
-            android:name=".View.MainActivity"
+            android:name=".View.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/rvbpvpy2mf2e"
+            android:id="@+id/ivaskbook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -23,7 +23,7 @@
             android:scaleType="fitXY"
             />
         <TextView
-            android:id="@+id/rc87my6wd1we"
+            android:id="@+id/tvemail"
             android:textColor="#080808"
             android:textSize="13sp"
             android:layout_marginBottom="1dp"
@@ -40,7 +40,7 @@
             android:layout_marginHorizontal="34dp"
             android:background="@drawable/rounded_shape"/>
         <TextView
-            android:id="@+id/raiyi4t1vgbq"
+            android:id="@+id/tvpassword"
             android:textColor="#080808"
             android:textSize="13sp"
             android:layout_marginBottom="1dp"
@@ -60,7 +60,7 @@
             android:background="@drawable/rounded_shape" />
 
         <Button
-            android:id="@+id/SubmitRegister"
+            android:id="@+id/btnlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -69,7 +69,40 @@
             android:background="@drawable/rounded_shape"
             android:backgroundTint="@color/blue"
             android:paddingVertical="10dp"
-            android:layout_marginHorizontal="109dp"
+            android:layout_marginHorizontal="110dp"
             android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnregister"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Register"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_shape"
+                android:backgroundTint="@color/blue"
+                android:paddingVertical="10dp"/>
+
+            <Button
+                android:id="@+id/btnlupapassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lupa Password"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_shape"
+                android:backgroundTint="@color/blue"
+                android:paddingVertical="10dp"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
     </LinearLayout>
+
 </androidx.appcompat.widget.LinearLayoutCompat>

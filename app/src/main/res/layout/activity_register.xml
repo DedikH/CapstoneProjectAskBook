@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/rvbpvpy2mf2e"
+            android:id="@+id/ivaskbook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -23,7 +23,7 @@
             android:scaleType="fitXY"
             />
         <TextView
-            android:id="@+id/rc87my6wd1we"
+            android:id="@+id/tvemail"
             android:textColor="#080808"
             android:textSize="13sp"
             android:layout_marginBottom="1dp"
@@ -40,7 +40,7 @@
             android:layout_marginHorizontal="34dp"
             android:background="@drawable/rounded_shape"/>
         <TextView
-            android:id="@+id/raiyi4t1vgbq"
+            android:id="@+id/tvpassword"
             android:textColor="#080808"
             android:textSize="13sp"
             android:layout_marginBottom="1dp"
@@ -111,7 +111,7 @@
             android:layout_marginHorizontal="34dp"
             android:background="@drawable/rounded_shape"/>
         <Button
-            android:id="@+id/SubmitRegister"
+            android:id="@+id/btnregister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
