@@ -15,7 +15,7 @@ class Register : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        mbtn_register = findViewById<View>(R.id.btnregister) as Button
+        mbtn_register = findViewById(R.id.btnregister)
 
         mbtn_register!!.setOnClickListener {
             val register = Intent(

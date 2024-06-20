@@ -50,9 +50,9 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        mbtn_login = findViewById<View>(R.id.btnlogin) as Button
-        mbtn_register = findViewById<View>(R.id.btnregister) as Button
-        mbtn_lupapassword = findViewById<View>(R.id.btnlupapassword) as Button
+        mbtn_login = findViewById(R.id.btnlogin)
+        mbtn_register = findViewById(R.id.btnregister)
+        mbtn_lupapassword = findViewById(R.id.btnlupapassword)
 
         mbtn_login!!.setOnClickListener {
             val dashboard = Intent(

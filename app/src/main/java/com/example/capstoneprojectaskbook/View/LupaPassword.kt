@@ -14,7 +14,7 @@ class LupaPassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lupa_password)
 
-        mbtn_lupapassword = findViewById<View>(R.id.btnreset) as Button
+        mbtn_lupapassword = findViewById(R.id.btnreset)
 
         mbtn_lupapassword!!.setOnClickListener {
             val lupaPassword = Intent(
