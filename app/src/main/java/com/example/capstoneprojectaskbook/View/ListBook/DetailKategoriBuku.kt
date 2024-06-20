@@ -21,7 +21,7 @@ class DetailKategoriBuku : AppCompatActivity() {
         binding = ActivityDetailKategoriBukuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val fiksibook = listOf("Laskar Pelangi", "Dilan 1990", "Promise", "Bumi Manusia", "Rumah kaca", "Koala Kumal", "Tentang Kamu", "5 cm", "Memahami Film", "Sangkuriang ")
+        val fiksibook = listOf("Laskar Pelangi", "Dilan 1990", "Promise", "Bumi Manusia", "Rumah kaca", "Koala Kumal", "Tentang Kamu", "5 cm", "Memahami Film", "Sangkuriang", "Student Hidjo", "Funiculi Funicula", "Pangeran Cilik: Le Petit Prince", "Man Boy", "Keajaiban Toko Kelontong Namiya", "Laut Bercerita", "Aroma Karsa", "Selamat Tinggal")
 
         val listadapter = ArrayAdapter(this, simple_list_item_1, fiksibook)
         binding.listItem.adapter = listadapter

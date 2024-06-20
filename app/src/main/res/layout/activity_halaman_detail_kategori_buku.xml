@@ -6,20 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".View.DetailBukuActivity">
+    tools:context=".View.HalamanDetailKategoriBuku">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center"
+        />
 
     <TextView
         android:id="@+id/titleBook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Title"
-        android:textSize="18sp"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/onestbold"
         android:textStyle="bold" />
 
     <TextView
@@ -27,12 +32,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Deskripsi"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rating"
+        android:layout_marginHorizontal="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_marginTop="16dp" />
 
     <TextView
@@ -40,12 +50,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9/10"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
         android:layout_marginTop="4dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Link Pembelian"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_marginTop="16dp" />
 
     <TextView
@@ -53,5 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="www.example.com"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
         android:layout_marginTop="4dp" />
 </androidx.appcompat.widget.LinearLayoutCompat>
