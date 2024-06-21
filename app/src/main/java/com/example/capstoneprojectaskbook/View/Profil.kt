@@ -29,9 +29,7 @@ class Profil : AppCompatActivity() {
                         " Tim ID: \n C241-PS259 \n\n" +
                         " Advisor: \n B24-0397 Yehezkiel Gunawan Cloud Computing\n" +
                         " B24-0441 Edi Darmawansah Business/\n" +
-                        " Commerce/Ideation\n\n" +
-                        " Deskripsi Aplikasi: \n Aplikasi ini menjelaskan tentang sebagian kecil \n dari jenis-jenis tanaman yang ada\n\n" +
-                        " Sumber: \n Halodoc, Jurnal-jurnal kesehatan"
+                        " Commerce/Ideation\n\n"
             )
 
             builder.setPositiveButton("OK") { dialog, which ->
