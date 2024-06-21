@@ -28,7 +28,7 @@
             android:name=".View.HalamanDetailKategoriBuku"
             android:exported="false" />
         <activity
-            android:name=".View.DetailKategoriBuku"
+            android:name=".View.ListBook.DetailKategoriBuku"
             android:exported="false" />
         <activity
             android:name=".View.PilihKategoriBuku"
