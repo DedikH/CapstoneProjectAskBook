@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.capstoneprojectaskbook.R
 import com.example.capstoneprojectaskbook.View.ListBook.DetailKategoriBuku
+import com.example.capstoneprojectaskbook.View.ListBook.DetailKategoriBukuNonFiksi
 
 class PilihKategoriBuku : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,11 @@ class PilihKategoriBuku : AppCompatActivity() {
 
         fiksi.setOnClickListener{
             val intent = Intent(this, DetailKategoriBuku::class.java)
+            startActivity(intent)
+        }
+
+        nonfiksi.setOnClickListener{
+            val intent = Intent(this, DetailKategoriBukuNonFiksi::class.java)
             startActivity(intent)
         }
     }

@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".View.ListBook.DetailKategoriBuku">
+    tools:context=".View.ListBook.DetailKategoriBukuNonFiksi">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buku Fiksi"
+        android:text="Buku Non Fiksi"
         android:textSize="50sp"
         android:textStyle="bold"
         android:fontFamily="@font/onestbold"
